@@ -1,0 +1,64 @@
+.nav-item {
+  .nav-link {
+    // font-weight: bold;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+  }
+  .nav-link:hover {
+    color: #04aec2;
+  }
+}
+.nav-item:first-child {
+  color: #04aec2;
+}
+
+// *************Hero Section ***************
+
+.heroImage {
+  width: 80%;
+}
+
+.downLoadBtn {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: white;
+  box-shadow: -10px 0 0px #04aec2, 10px 0 0px #04aec2;
+  transition: all 1s;
+}
+.textColor {
+  background-color: #1a202c;
+}
+
+.downLoadBtn:hover {
+  background-color: #04aec2;
+  color: white;
+  border: 1px solid #04aec2;
+  box-shadow: -10px 0 0px white, 10px 0 0px white;
+}
+
+
+@media screen and (max-width: 768px) {
+  .heroText {
+    font-size: 3vw;
+  }
+  .heroImage {
+    width: 60%;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .heroText {
+    font-size: 3vw;
+  }
+  .heroImage {
+    width: 90%;
+  }
+.para_text {
+    color: #343a40;
+    font-weight: 600;
+    font-size: 15px;
+}
+}

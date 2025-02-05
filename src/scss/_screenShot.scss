@@ -1,0 +1,48 @@
+.para_text {
+    color: #343a40;
+    font-weight: 600;
+    
+  }
+.screenShot{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #1A202C;
+    color: white;
+    box-shadow: -6px 0 0px #04aec2, 6px 0 0px #04aec2;
+    transition: all 1s;
+}
+.screenShot:hover{
+    background-color: white;
+    color:#04aec2 ;
+    border: 1px solid #04aec2;
+    box-shadow: -8px 0 0px #1A202C, 8px 0 0px #1A202C;
+  }
+  
+.tableOfContent{    
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #1A202C;
+    color: white;
+    box-shadow: -6px 0 0px #04aec2, 6px 0 0px #04aec2;
+}
+
+
+.cardBox{
+  // width:16rem;
+  border:none;
+  background-color: #EDF2F7;
+}
+
+
+  @media screen and (max-width: 576px) {
+   
+  .para_text {
+      color: #343a40;
+      font-weight: 600;
+      font-size: 14px;
+  }
+  }
+  @media screen and (max-width: 768px) {
+    
+  }
