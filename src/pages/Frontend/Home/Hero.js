@@ -76,7 +76,7 @@ export default function Hero() {
             </tbody>
 
           </table>
-          <button className="btn downLoadBtn w-75 fs-5 fw-bold p-2"  ><DownloadOutlined  style={{ fontSize: '20px' }}/> Download</button>
+          <button className="btn downLoadBtn w-100  fs-5 fw-bold p-2"  ><DownloadOutlined  style={{ fontSize: '20px' }}/> Download</button>
         </div>
       </div>
     </div>

@@ -236,7 +236,7 @@ export default function ScreenShot() {
           explain these stunning features one by one in detail.
         </p>
         <div className="image d-flex justify-content-center my-3">
-          <img src={longImage} alt="" style={{ height: "150vh" }} />
+          <img src={longImage} alt="" style={{ height: "150vh",width:"100%" }} />
         </div>
       </div>
       <div className="keyFrames">
@@ -405,7 +405,7 @@ export default function ScreenShot() {
           </div>
           <div className="col-12 col-md-6 py-2 d-flex justify-content-center align-items-center">
             <iframe
-              width="560"
+              width="100%"
               height="315"
               src="https://www.youtube.com/embed/mCpURi0-vBw?si=V-kFyGfgfk2-bwkn"
               title="YouTube video player"
@@ -421,7 +421,7 @@ export default function ScreenShot() {
         </p>
         <div className="row">
           <div className="col-12 col-md-6 py-2 d-flex justify-content-center align-items-center">
-            <img src={aiModel} alt="aiModel"  style={{ height: "170vh" }} />
+            <img src={aiModel} alt="aiModel"  style={{ height: "170vh",width:"100%" }} />
           </div>
           <div
             className="col-12 col-md-6 py-2"
